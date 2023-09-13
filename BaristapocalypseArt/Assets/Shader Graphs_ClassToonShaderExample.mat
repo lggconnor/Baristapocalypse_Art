@@ -22,7 +22,11 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _Albedo:
-        m_Texture: {fileID: 2800000, guid: b39336e67b68db14aa4a8a7f883e5aff, type: 3}
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _LightingRamp:
+        m_Texture: {fileID: 2800000, guid: 1c062c31b26294a4d8911dcfca3d8f01, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_5e696ca57ed448de9520420cdb4b7770_Texture_1:
@@ -43,14 +47,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _ClampSpecularOutput: 1
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _RimLightingDarkCutoff: 0.1
     - _RimStrength: 10
     - _SSControl: 0.5
-    - _Smoothness: 0.8
+    - _Smoothness: 2.49
+    - _UseRimLight: 0
     m_Colors:
-    - _RimColor: {r: 0.4323962, g: 2, b: 0.031413555, a: 0}
-    - _Tint: {r: 1, g: 1, b: 1, a: 0}
+    - _RimColor: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 0}
+    - _Tint: {r: 0.7169812, g: 0.3009968, b: 0.3009968, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6360590175687370137
 MonoBehaviour:
